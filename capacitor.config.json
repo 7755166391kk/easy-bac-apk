@@ -1,5 +1,5 @@
 {
-  "appId": "com.easybac.app",
+  "appId": "com.easy bac.app",
   "appName": "Easy Bac",
   "webDir": "www",
   "server": {
@@ -12,7 +12,7 @@
     "backgroundColor": "#000000",
     "webContentsDebuggingEnabled": false,
     "captureInput": true,
-    "useLegacyBridge": true
+    "useLegacyBridge": false
   },
   "plugins": {
     "CapacitorHttp": {
