@@ -1,0 +1,35 @@
+{
+  "appId": "com.easybac.app",
+  "appName": "Easy Bac",
+  "webDir": "www",
+  "server": {
+    "url": "https://easybac.manus.space/",
+    "cleartext": false,
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#000000",
+    "webContentsDebuggingEnabled": false,
+    "captureInput": true,
+    "useLegacyBridge": false
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    },
+    "SplashScreen": {
+      "backgroundColor": "#000000",
+      "launchAutoHide": true,
+      "launchShowDuration": 1500,
+      "androidScaleType": "FIT_CENTER",
+      "showSpinner": false
+    }
+  }
+}
