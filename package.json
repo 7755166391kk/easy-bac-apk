@@ -1,6 +1,6 @@
 {
-  "name": "com-easy-bac-app",
-  "version": "1.0.0",
+  "name": "com-easybac-app",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "android:prepare": "npx cap add android || npx cap sync android && node scripts/customize-android.mjs",

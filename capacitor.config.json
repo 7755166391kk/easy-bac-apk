@@ -1,15 +1,18 @@
 {
-  "appId": "com.easy bac.app",
+  "appId": "com.easybac.app",
   "appName": "Easy Bac",
   "webDir": "www",
   "server": {
     "url": "https://easybac.manus.space/",
     "cleartext": false,
-    "androidScheme": "https"
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*"
+    ]
   },
   "android": {
     "allowMixedContent": false,
-    "backgroundColor": "#000000",
+    "backgroundColor": "#0f172a",
     "webContentsDebuggingEnabled": false,
     "captureInput": true,
     "useLegacyBridge": false
@@ -22,7 +25,7 @@
       "enabled": true
     },
     "SplashScreen": {
-      "backgroundColor": "#000000",
+      "backgroundColor": "#0f172a",
       "launchAutoHide": true,
       "launchShowDuration": 1500,
       "androidScaleType": "FIT_CENTER",
