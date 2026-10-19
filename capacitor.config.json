@@ -5,17 +5,14 @@
   "server": {
     "url": "https://easybac.manus.space/",
     "cleartext": false,
-    "androidScheme": "https",
-    "allowNavigation": [
-      "*"
-    ]
+    "androidScheme": "https"
   },
   "android": {
     "allowMixedContent": false,
     "backgroundColor": "#000000",
     "webContentsDebuggingEnabled": false,
     "captureInput": true,
-    "useLegacyBridge": false
+    "useLegacyBridge": true
   },
   "plugins": {
     "CapacitorHttp": {
